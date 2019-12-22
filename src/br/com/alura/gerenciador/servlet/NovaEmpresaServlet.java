@@ -37,7 +37,7 @@ public class NovaEmpresaServlet extends HttpServlet {
 			
 		} catch (ParseException e) {
 			throw new ServletException(e);
-		}
+		}  
 		
 		Empresa empresa = new Empresa();
 		empresa.setNome(nomeEmpresa);
